@@ -1,2 +1,9 @@
-First use word2vecpy to create / update file word2vect_dict.
-Then run classify.ipynb 
+In classify.ipynb, run the section (emails / articles) to create extracted_text, text file with all the plain text.
+
+Run word2vecpy to create CBOW encoding:
+$ python word2vecpy -train extracted_text -model w2v
+
+Run section of classify.ipynb to read w2v and create dictionary
+
+Run CNTK section of classify.ipynb 
+
